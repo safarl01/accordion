@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.accordion {
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li .accordion-side {
+    display: none;
+    margin: 20px;
+    background: white;
+}
+
+ul li .accordion-side div{
+    margin: 20px;
+}
+
+ul li h4 {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul li .accordion-side h3 {
+    font-family: 'Oswald', sans-serif;
+    margin: 15px 0 15px 0;
+}
+
+ul li .accordion-side p {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+ul li .accordion-side a {
+    text-decoration: none;
+    color: black;
+}
